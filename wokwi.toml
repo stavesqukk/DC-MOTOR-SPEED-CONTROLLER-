@@ -1,0 +1,8 @@
+[wokwi]
+version = 1
+firmware = 'target/riscv32imc-unknown-none-elf/debug/motor_ctrl'
+elf = 'target/riscv32imc-unknown-none-elf/debug/motor_ctrl'
+
+[[chip]]
+name = 'dc-motor'
+binary = 'chips/dc-motor.chip.wasm'
